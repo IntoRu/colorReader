@@ -1,0 +1,61 @@
+body {
+  min-width: 1200;
+}
+input {
+  width: 60%;
+  height: 100px;
+  /* background-color: rgb(221, 245, 86); */
+  text-align: center;
+  font-size: 60px;
+  border-radius: 90px;
+}
+button {
+  height: 100px;
+  width: 20%;
+  font-size: 60px;
+  font-weight: 700;
+  border-radius: 90px;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 1600px;
+  /* border: 3px solid red; */
+  margin-top: 50px;
+}
+.block1,
+.block2,
+.block3,
+.block4 {
+  /* border: 3px solid blue; */
+  flex: 1;
+}
+.block1 {
+  text-align: center;
+  font-size: 60px;
+  flex: 0.2;
+  font-weight: 900;
+}
+.block2 {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.2;
+}
+.block3 {
+  flex: 0.2;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+}
+.block4 {
+  flex: 6;
+}
+
+/* .blockT {
+  display: flex;
+  justify-content: space-around;
+  flex: 0.2;
+} */
