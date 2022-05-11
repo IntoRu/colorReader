@@ -1,3 +1,3 @@
 # colorReader application
 
-for use in **"Arneg"** company
+for use only in **"Arneg"** company
